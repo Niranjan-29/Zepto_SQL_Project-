@@ -67,7 +67,8 @@ The SQL script is structured into four main parts:
    CREATE DATABASE Zepto_SQL_Project;
    USE Zepto_SQL_Project;
 
-2. **Create the Table**  
+2. **Create the Table**
+   ```sql
    CREATE TABLE Zepto (
     sku_id INT PRIMARY KEY,
     category VARCHAR(120),
@@ -79,10 +80,10 @@ The SQL script is structured into four main parts:
     weightInGms INT,
     outOfStock BOOLEAN,
     quantity INT
-);
+   );
 
 
-3. **Import Data**  
+4. **Import Data**  
    Load the `zepto_v2.csv` dataset into the **Zepto** table using the following command.  
    Remember to update the file path:  
 
